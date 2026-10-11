@@ -1,0 +1,11 @@
+@"
+.venv/
+.env
+token.json
+client_secret.json
+out/
+__pycache__/
+*.mp3
+*.mp4
+done.txt
+"@ | Set-Content -Encoding ascii .gitignore
